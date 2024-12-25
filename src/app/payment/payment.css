@@ -1,0 +1,86 @@
+/* payment.css */
+.payment-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.payment-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.address-section,
+.payment-details-section {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none;
+}
+
+.payment-details-section input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border 0.3s ease;
+}
+
+.payment-details-section input:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none;
+}
+
+.payment-details-section label {
+  font-weight: bold;
+  color: #555;
+}
+
+.payment-summary {
+  margin-top: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pay-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.pay-btn:hover {
+  background-color: #45a049;
+}
+
+.pay-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(76, 175, 80, 0.7); /* Add a focus shadow effect */
+}
